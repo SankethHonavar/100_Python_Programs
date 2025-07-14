@@ -56,7 +56,7 @@ Each set focuses on a specific category of programming problems:
 1. Clone the repository:
    ```bash
    git clone https://github.com/SankethHonavar/100_Python_Programs.git
-````
+   ```
 
 2. Navigate to the folder of your choice:
 
