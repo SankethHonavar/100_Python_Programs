@@ -3,11 +3,11 @@ def is_perfect_number(n):
     for i in range(1,n):
         if n%i==0:
             sum+=i
-    return sum==n
-
+    if sum==n:
+        print("Perfect")
+    else:
+        print("not perfect")
 number=int(input("Enter a number: "))
-if is_perfect_number(number):
-    print("Perfect Number")
-else:
-    print("Not a Perfect Number")
+is_perfect_number(number)
+
 
